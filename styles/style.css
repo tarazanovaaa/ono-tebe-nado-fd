@@ -39,11 +39,100 @@
   align-items: flex-start;
   display: flex;
   flex-direction: column;
+  height: 51px;
+  left: 50px;
+  top: 656px;
+
 }
 
 .header__address {
   justify-self: end;
 }
+
+.cover {
+  min-height: 757px; /* 937px  757*/
+
+  background-image: url(../images/cover.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  margin-bottom: 180px;
+}
+
+.cover__title {
+  text-transform:uppercase;
+  width: 100%;
+  color: #fff;
+  padding: 100px 50px 106px 50px; /* 165px 50px 106px 50px*/
+  font-weight: bold;
+  font-size: 100px;
+  line-height: 1.15;
+  letter-spacing: 0.3em;
+
+}
+
+.aligned-text {
+  display: block;
+}
+
+aligned-text_left {
+  text-align: left;
+}
+
+.aligned-text_center {
+  text-align: center;
+}
+
+.aligned-text_right {
+  text-align: right;
+} 
+
+.cover__description {
+  display: flex;
+  align-items: center;
+  padding: 0 50px 50px 50px;
+  gap: 107px;
+
+}
+
+.cover__description-text {
+
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #fff;
+  word-spacing: 15px;
+  display: inline-block;
+}
+
+.button {
+  all: unset; /* Сбрасываем все стили: наследуемые свойства наследуются от родителя, ненаследуемые — к начальным значениям */
+
+}
+
+.bet-button {
+  width: 256px;
+  height: 51px;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  background: transparent;
+  border: 1px solid #fff;
+  display: inline-block;
+
+}
+
+
+
+
+
+
+
+
 
 
 
