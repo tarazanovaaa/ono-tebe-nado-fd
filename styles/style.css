@@ -170,17 +170,13 @@ aligned-text_left {
 
 }
 
-.card-link {
-  flex: 1 1 auto;
-}
-
 .lots__card-list {
   display: flex;
   gap: 26px;
-
 }
 
 .card-link {
+  flex: 1 1 auto;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
