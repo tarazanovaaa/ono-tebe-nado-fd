@@ -10,10 +10,8 @@
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
 
-
   <body>
     <header class="header">
-
       <nav class="header__menu">
         <ul class="header__links-list">
           <li class="header__links-list-item header__link_active">
@@ -30,21 +28,15 @@
       <a class="header__logo">
         <img src="./images/logo-black.svg" alt="Логотип проекта" class="header__logo-image" />
       </a>
-
       <address class="address header__address">
         <a href="tel:+99995555555">
           +9 999 555 5555
         </a>
-
         <a href="mailto:info@sobaka.ge">
           info@sobaka.ge
         </a>
-
         <p>наб. Принсенграхт 263- 265, Амстердам</p>
       </address>
-
-
-
     </header>
 
     <main class="main">
@@ -64,13 +56,12 @@
         </div>
         <div class="overlay">
         </div>
-
       </section>
 
       <section class="lots">
-        <h2 class="lots__heading">
+        <h3 class="lots__heading">
           Лоты
-        </h2>
+        </h3>
         <ul class="lots__card-list">
           <li class="lots__card-list-item list">
             <a href="#0" class="card-link card_type_film">
@@ -86,7 +77,6 @@
               </article>
             </a>
           </li>
-
           <li class="lots__card-list-item list">
             <a href="#0" class="card-link card_type_book">
               <article class="card">
@@ -101,7 +91,6 @@
               </article>
             </a>
           </li>
-
           <li class="lots__card-list-item list">
             <a href="#0" class="card-link card_type_picture">
               <article class="card">
@@ -118,43 +107,46 @@
           </li>
         </ul>
         <a class="lots__look-more-link" href="#0">посмотреть больше</a>
-
-
       </section>
 
       <section class="about">
-        <div class="about__description description">
-          <a class="about__logo">
-            <img src="./images/logo-white.svg" alt="Логотип проекта" class="about__logo-image" />
-          </a>
-        </div>
-
-        <div class="about__description description">
-
-
-
-          <h2 class="about__title">
-            <span class="accent-span text-left">Об аукционе</span>
-          </h2>
-          <div>
-            <p>
-              Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка или картина, которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?
-            </p>
-            <p>
-              Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах растерзанные критиками. Непринятые и непонятые. Когда-то они казались просто неудачными. Но, несмотря на критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить современную культуру. Когда в эти вещи не верил никто, продолжали верить их создатели. И сейчас эти лоты стали культовыми. 
-            </p>
+        <div class="about__column">
+          <div class="about__logo">
+            <a>
+              <img src="./images/logo-white.svg" alt="Логотип аукциона" class="about__logo-image" />
+            </a>
           </div>
-
+          <div class="about__description">
+            <h4 class="about__title">
+              Об аукционе
+            </h4>
+            <div class="about__text">
+              <p>
+                Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка или картина, которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?
+              </p>
+              <p>
+                Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах растерзанные критиками. Непринятые и непонятые. Когда-то они казались просто неудачными. Но, несмотря на критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить современную культуру. Когда в эти вещи не верил никто, продолжали верить их создатели. И сейчас эти лоты стали культовыми. 
+              </p>
+            </div>
+          </div>
         </div>
       </section>
-
     </main> 
 
-
     <footer class="footer">
-      <address>+9 999 555 5555</address>
-      <address>info@sobaka.ge</address>
-      <address>наб. Принсенграхт 263- 265, Амстердам</address>
+      <address class="address footer__address">
+        <a href="tel:+99995555555">
+          +9 999 555 5555
+        </a>
+        <a href="mailto:info@sobaka.ge">
+          info@sobaka.ge
+        </a>
+        <p class="footer__address-text">
+          <span class="footer__address-line">наб. Принсенграхт 263-265,</span>
+          <span class="footer__address-line">Амстердам</span>
+        </p>
+      </address>
+
       <nav class="footer__menu">
         <ul class="footer__menu-list">
           <li class="footer__menu-item footer__menu-item_active">
@@ -169,34 +161,24 @@
         </ul>
       </nav>
 
-        <ul class="footer__links">
-          <li>
-            <a href="#0">
-              <img src="./images/yt.svg" alt="Логотип YouTube" class="footer__youtube-image" />
-            </a>
-          </li>
-          <li>
-            <a href="#0">
-              <img src="./images/vk.svg" alt="Логотип VK" class="footer__vk-image" />
-            </a>
-          </li>
-          <li>
-            <a href="#0">
-              <img src="./images/pinterest.svg" alt="Логотип Pinteres" class="footer__pinterest-image" />
-            </a>
-          </li>
-
-        </ul>
-
+      <ul class="footer__social-list">
+        <li class="footer__social-list-item">
+          <a class="footer__social-link" href="#0">
+            <img src="./images/yt.svg" alt="Логотип YouTube" class="footer__social-icon"/>
+          </a>
+        </li>
+        <li class="footer__social-list-item">
+          <a class="footer__social-link" href="#0">
+            <img src="./images/vk.svg" alt="Логотип VK" class="footer__social-icon"/>
+          </a>
+        </li>
+        <li class="footer__social-list-item">
+          <a class="footer__social-link" href="#0">
+            <img src="./images/pinterest.svg" alt="Логотип Pinterest" class="footer__social-icon"/>
+          </a>
+        </li>
+      </ul>
     </footer>
 
-
   </body>
-
-
-
-
-
 </html>
-
-
