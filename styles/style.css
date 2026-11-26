@@ -26,7 +26,7 @@
 }
 
 .header__link_active {
-  list-style: none;
+  text-decoration: none;
 }
 
 .header__logo {
@@ -124,11 +124,12 @@
 .bet-button {
   z-index: 1;
   width: 256px;
-  height: 51px;
+  min-height: 51px;
   border: 1px solid #fff;
   color: #fff;
   background-color: transparent;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 .overlay {
@@ -266,16 +267,11 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: start;
-  min-height: 180px;
 }
 
 .footer__address {
   max-width: none;
   padding-left: 50px;
-}
-
-.footer__address-line {
-  display: block;
 }
 
 .footer__menu-list {
