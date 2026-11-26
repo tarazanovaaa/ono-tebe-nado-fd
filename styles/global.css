@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;/* Убрать? */
+}
+
 body {
   width: 1100px;
   margin: 0 auto;
@@ -27,7 +31,7 @@ blockquote {
 
 a {
   color: inherit;
-  display: block;
+  /*display: block;*/  /* Убрать? */
 }
 
 img {
