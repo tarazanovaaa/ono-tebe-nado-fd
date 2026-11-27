@@ -201,6 +201,10 @@
   text-transform: uppercase;
 }
 
+.card-link {
+  text-decoration: none;
+}
+
 .card__text {
   z-index: 1;
   font-size: 20px;
@@ -267,6 +271,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: start;
+  padding-bottom: 82px;
 }
 
 .footer__address {
